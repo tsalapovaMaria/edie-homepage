@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 13px 10px;
+}
+h1, h2, p {
+    margin: 0;
+}
+
+.main-title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+.hero-image {
+    display: block;
+    width: 100%;
+    left: 10px;
+    top: 201px;
+
+    border-radius: 18px;
+}
+.about-us-container {
+    padding: 48px 40px;
+}
+.websites-adv {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2D9CDB;
+}
+.secondary-title {    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.secondary-title-small-width {
+    width: 227px;
+}
+.about-us-paragraph {
+    margin-top: 33px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contact-you-container {
+    margin-top: 31px;
+}
+.contact-you-title {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #828282;
+}
+.contact-you-container input[type='email'] {
+    margin-top: 6px;
+
+    max-width: 100%;
+    height: 47px;
+
+    padding-left: 19px;
+    padding-right: 80px;
+
+    background: #F2F2F2;
+    border: none;
+    border-radius: 12px;
+}
+.contact-you-container input[type='email']::placeholder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #BDBDBD;
+}
+.contact-you-container button {
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+
+    padding: 0;
+
+    width: 71px;
+    height: 39px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #F2F2F2;
+
+    background: #2D9CDB;
+    border: none;
+    border-radius: 12px;
+}
+.contact-you-container button:hover {
+    background: #57c0fd;
+}
+.contact-you-container button:active {
+    color: #F2F2F2;
+
+    background: #2b82b4;
+}
+
+.offer-container {
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+}
+.offer-container div + div {
+    margin-top: 80px;
+}
+.offer-container svg {
+    width: 67px;
+    height: 67px;
+}
+
+.ux-design-title,
+.frontend-title,
+.backend-title {
+    margin-top: 35px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #333333;
+}
+.ux-design-paragraph,
+.frontend-paragraph,
+.backend-paragraph {
+    margin-top: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4F4F4F;
+}
+
+.ux-design-container button,
+.frontend-container button,
+.backend-container button {
+    margin-top: 30px;
+
+    width: 116px;
+    height: 42px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    background: #2D9CDB;
+    border-radius: 12px;
+    border: none;
+}
+.ux-design-container button:disabled,
+.frontend-container button:disabled,
+.backend-container button:disabled {
+    background: #E0E0E0;
+    color: #828282;
+}
+.frontend-container {
+    width: 100%;
+    margin-left: -33px;
+    padding: 49px 34px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+/*GOOD DESIGN MEANS GOOD BUSINESS*/
+
+.design-examples-container {
+    margin-top: 146px;
+}
+.design-examples-container .secondary-title {
+    padding: 0 40px;
+}
+.design-examples-container > div:first-of-type {
+    margin-top: 48px;
+}
+.design-examples-container > div + div {
+    margin-top: 36px;
+}
+.full-stack-app-container > img,
+.on-board-app-container > img,
+.booking-system > img,
+.juice-homepage > img {
+    max-width: 100%;
+    border-radius: 24px;
+}
+.design-examples-small-text {
+    margin-top: 12.6px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #828282;
+}
+.design-examples-medium-text {    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #333333;
+}
+.see-more-link {
+    display: inline-block;
+
+    margin-top: 35.64px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+}
+
+/*TEAM CONTAINER*/
+.team-container {
+    margin-top: 100px;
+}
+.meat-the-team-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EB5757;
+}
+.team-container .secondary-title {
+    width: 80%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #333333;
+}
+.team-container .team-paragraph {
+    width: 80%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4F4F4F;
+}
+.team-pictures {
+    margin-top: 36px;
+    display: flex;
+}
+.first-picture img,
+.rest-pictures img {
+    max-width: 100%;
+    border-radius: 24px;
+}
+.first-picture {
+    width: 160%;
+    margin-right: 8.91px;
+}
+.first-picture img {
+    
+    width: 178.16px;
+}
+.rest-pictures img:first-of-type {
+    width: 85%;
+}
+.rest-pictures img:last-of-type {
+    width: 95%;
+}

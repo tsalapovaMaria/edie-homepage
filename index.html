@@ -5,12 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Edie Homepage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <title>Edie Homepage</title>
 </head>
 
 <body>
-    <header>        
+    <header>
         <h1 class="main-title">Edie</h1>
 
         <div class="burger-menu">
@@ -24,7 +28,7 @@
             <h2 class="secondary-title">We create beatiful and fast web services</h2>
         </div>
 
-        <img src="edie-homepage-master/heroImage.jpg" alt="">
+        <img class="hero-image" src="edie-homepage-master/heroImage.jpg" alt="">
 
         <div class="about-us-container">
             <h2 class="secondary-title secondary-title-small-width">Story, emotion and purpose</h2>
@@ -32,10 +36,10 @@
                 that will outperform your toughest competition
                 and help you achieve your strategic goals in short period of time.</p>
 
-            <div class="contact-you">
+            <div class="contact-you-container">
                 <label class="contact-you-title">
                     Want us to contact you?
-                    <input type="text">
+                    <input type="email" placeholder="Email">
                     <button type="button">Join</button>
                 </label>
             </div>
@@ -115,55 +119,60 @@
                     <button type="button" disabled>Get started</button>
                 </div>
             </div>
+        </div>
+        
+        <div class="design-examples-container">
+            <h2 class="secondary-title">Good design means good business</h2>
 
-            <div class="design-examples-container">
-                <h2 class="secondary-title">Good design means good business</h2>
-
-                <div class="full-stack-app-container">
-                    <img src="edie-homepage-master/smarthome.jpg" alt="">
-                    <p class="design-examples-small-text">Full stack application</p>
-                    <p class="design-examples-medium-text">Smart home dashboard</p>
-                </div>
-                <div class="on-board-app-container">
-                    <img src="edie-homepage-master/onboard.png" alt="">
-                    <p class="design-examples-small-text">UX/UI design</p>
-                    <p class="design-examples-medium-text">Onboard application</p>
-                </div>
-                <div class="booking-system">
-                    <img src="edie-homepage-master/onboard.png" alt="">
-                    <p class="design-examples-small-text">Mobile application</p>
-                    <p class="design-examples-medium-text">Booking system</p>
-                </div>
-                <div class="juice-homepage">
-                    <img src="edie-homepage-master/onboard.png" alt="">
-                    <p class="design-examples-small-text">Front End application</p>
-                    <p class="design-examples-medium-text">Juice product homepage</p>
-                </div>
-
-                <a href="#">see more &#8594;</a>
+            <div class="full-stack-app-container">                    
+                <img src="edie-homepage-master/smarthome.jpg" alt="">
+                <p class="design-examples-small-text">Full stack application</p>
+                <p class="design-examples-medium-text">Smart home dashboard</p>
             </div>
-            <div class="team-container">
-                <h2 class="secondary-title">We are chilled and a laidback team</h2>
-                <p class="team-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="on-board-app-container">
+                <img src="edie-homepage-master/onboard.png" alt="">
+                <p class="design-examples-small-text">UX/UI design</p>
+                <p class="design-examples-medium-text">Onboard application</p>
+            </div>
+            <div class="booking-system">
+                <img src="edie-homepage-master/booking.png" alt="">
+                <p class="design-examples-small-text">Mobile application</p>
+                <p class="design-examples-medium-text">Booking system</p>
+            </div>
+            <div class="juice-homepage">
+                <img src="edie-homepage-master/smarthome.jpg" alt="">
+                <p class="design-examples-small-text">Front End application</p>
+                <p class="design-examples-medium-text">Juice product homepage</p>
+            </div>
 
-                <div class="team-pictures">
-                    <img src="edie-homepage-master/person1.png" alt="">
-                    <img src="edie-homepage-master/person2.png" alt="">
+            <a class="see-more-link" href="#">see more &#8594;</a>
+        </div>
+        <div class="team-container">
+            <p class="meat-the-team-title">Meet the team</p>
+            <h2 class="secondary-title">We are chilled and a laidback team</h2>
+            <p class="team-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="team-pictures">
+                <div class="first-picture">
                     <img src="edie-homepage-master/person3.png" alt="">
                 </div>
-
-                <p class="quote-text">“Fast and outstanding resutls. 
-                    Edie understands their customer’s needs. They have
-                    a young and talented team.” </p>
-                <div class="carlos-tran-container">
-                    <img src="edie-homepage-master/person4.png" alt="">
-                    <p class="carlos-tran-title">Carlos Tran</p>
-                    <p class="carlos-tran-position">The Decorate Gatsby</p>
+                <div class="rest-pictures">
+                    <img src="edie-homepage-master/person1.png" alt="">
+                    <img src="edie-homepage-master/person2.png" alt="">
                 </div>
+            </div>
+
+            <p class="quote-text">“Fast and outstanding resutls.
+                Edie understands their customer’s needs. They have
+                a young and talented team.” </p>
+            <div class="carlos-tran-container">
+                <img src="edie-homepage-master/person4.png" alt="">
+                <p class="carlos-tran-title">Carlos Tran</p>
+                <p class="carlos-tran-position">The Decorate Gatsby</p>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer-container">
         <ul class="footer-list">
             <li class="footer-item">
                 <a href="#">Home</a>
@@ -181,6 +190,43 @@
                 <a href="#">Contact</a>
             </li>
         </ul>
+
+        <div class="edie-links">
+            <p class="edie-links-title">Edie</p>
+            <a href="#">
+                <svg enable-background="new 0 0 56.693 56.693" height="56.693px" viewBox="0 0 56.693 56.693"
+                    width="56.693px">
+                    <path
+                        d="M43.414,4.831H13c-5.283,0-9.581,4.297-9.581,9.58v10.12v20.295c0,5.283,4.298,9.58,9.581,9.58h30.415  c5.283,0,9.58-4.297,9.58-9.58V24.53v-10.12C52.994,9.127,48.697,4.831,43.414,4.831z M46.162,10.544l1.096-0.004v1.091v7.312  l-8.375,0.027l-0.029-8.402L46.162,10.544z M21.131,24.53c1.588-2.197,4.164-3.638,7.076-3.638s5.488,1.441,7.074,3.638  c1.033,1.434,1.652,3.188,1.652,5.088c0,4.811-3.918,8.725-8.727,8.725c-4.812,0-8.726-3.914-8.726-8.725  C19.481,27.718,20.098,25.964,21.131,24.53z M48.164,44.825c0,2.621-2.131,4.75-4.75,4.75H13c-2.62,0-4.751-2.129-4.751-4.75V24.53  h7.4c-0.639,1.572-0.998,3.289-0.998,5.088c0,7.473,6.08,13.557,13.556,13.557c7.475,0,13.555-6.084,13.555-13.557  c0-1.799-0.361-3.516-1-5.088h7.402V44.825z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg enable-background="new 0 0 56.693 56.693" height="56.693px" viewBox="0 0 56.693 56.693"
+                    width="56.693px">
+                    <g>
+                        <path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z" />
+                        <path
+                            d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z" />
+                    </g>
+                </svg>
+            </a>
+            <a href="#">
+                <svg height="56.693px"
+                    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                    viewBox="0 0 512 512" width="56.693px">
+                    <path
+                        d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+                </svg>
+            </a>
+        </div>
+        <div class="contact-you-container footer-contact-you">
+            <label class="contact-you-title">
+                Want us to contact you?
+                <input type="email" placeholder="Email">
+                <button type="button">Join</button>
+            </label>
+        </div>
+
     </footer>
 </body>
 
