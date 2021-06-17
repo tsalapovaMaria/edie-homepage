@@ -584,7 +584,14 @@ h1, h2, p {
         margin: 0;
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
         justify-content: center;
+    }
+    .booking-system {
+        margin: 0;
+    }
+    .design-examples-flex-row img {
+        margin: 0;
     }
     .design-examples-flex-row:not(:first-of-type) {
         margin-left: 20px;
