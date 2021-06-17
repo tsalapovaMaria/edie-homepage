@@ -14,9 +14,18 @@
 </head>
 
 <body>
-    <header>
+    <header class="header-container">
         <h1 class="main-title">Edie</h1>
 
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Services</a></li>
+                <li class="nav-item"><a href="#">Our Works</a></li>
+                <li class="nav-item"><a href="#">Clients</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <div class="burger-menu">
             <span></span>
         </div>
@@ -25,12 +34,14 @@
 
         <div class="about-us-container">
             <p class="websites-adv">Unhappy with your website?</p>
-            <h2 class="secondary-title">We create beatiful and fast web services</h2>
+            <h2 class="secondary-title websites-title">We create beatiful and fast web services</h2>
         </div>
 
-        <img class="hero-image" src="edie-homepage-master/heroImage.jpg" alt="">
+        <div class="hero-container">
+            <img class="hero-image" src="edie-homepage-master/heroImage.jpg" alt="">
+        </div>
 
-        <div class="about-us-container">
+        <div class="about-us-container story-emotion-purpose-container">
             <h2 class="secondary-title secondary-title-small-width">Story, emotion and purpose</h2>
             <p class="about-us-paragraph">We help transform your ideas into real world applications
                 that will outperform your toughest competition
@@ -46,7 +57,7 @@
         </div>
 
         <div class="about-us-container">
-            <h2 class="secondary-title">We offer high demand services</h2>
+            <h2 class="secondary-title services-title">We offer high demand services</h2>
 
             <div class="offer-container">
                 <div class="ux-design-container">
@@ -124,34 +135,41 @@
         <div class="design-examples-container">
             <h2 class="secondary-title">Good design means good business</h2>
 
-            <div class="full-stack-app-container">                    
-                <img src="edie-homepage-master/smarthome.jpg" alt="">
-                <p class="design-examples-small-text">Full stack application</p>
-                <p class="design-examples-medium-text">Smart home dashboard</p>
-            </div>
-            <div class="on-board-app-container">
-                <img src="edie-homepage-master/onboard.png" alt="">
-                <p class="design-examples-small-text">UX/UI design</p>
-                <p class="design-examples-medium-text">Onboard application</p>
-            </div>
-            <div class="booking-system">
-                <img src="edie-homepage-master/booking.png" alt="">
-                <p class="design-examples-small-text">Mobile application</p>
-                <p class="design-examples-medium-text">Booking system</p>
-            </div>
-            <div class="juice-homepage">
-                <img src="edie-homepage-master/smarthome.jpg" alt="">
-                <p class="design-examples-small-text">Front End application</p>
-                <p class="design-examples-medium-text">Juice product homepage</p>
+            <div class="design-examples-flex">
+                <div class="design-examples-flex-row">
+                    <div class="full-stack-app-container">                    
+                        <img src="edie-homepage-master/smarthome.jpg" alt="">
+                        <p class="design-examples-small-text">Full stack application</p>
+                        <p class="design-examples-medium-text">Smart home dashboard</p>
+                    </div>
+                    <div class="on-board-app-container">
+                        <img src="edie-homepage-master/onboard.png" alt="">
+                        <p class="design-examples-small-text">UX/UI design</p>
+                        <p class="design-examples-medium-text">Onboard application</p>
+                    </div>
+                </div>
+                <div class="design-examples-flex-row">
+                    <div class="booking-system">
+                        <img src="edie-homepage-master/booking.png" alt="">
+                        <p class="design-examples-small-text">Mobile application</p>
+                        <p class="design-examples-medium-text">Booking system</p>
+                    </div>
+                    <div class="juice-homepage">
+                        <img src="edie-homepage-master/smarthome.jpg" alt="">
+                        <p class="design-examples-small-text">Front End application</p>
+                        <p class="design-examples-medium-text">Juice product homepage</p>
+                    </div>
+                </div>
             </div>
 
             <a class="see-more-link" href="#">see more &#8594;</a>
         </div>
         <div class="team-container">
-            <p class="meat-the-team-title">Meet the team</p>
-            <h2 class="secondary-title">We are chilled and a laidback team</h2>
-            <p class="team-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+            <div class="team-text">
+                <p class="meat-the-team-title">Meet the team</p>
+                <h2 class="secondary-title">We are chilled and a laidback team</h2>
+                <p class="team-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
+            </div>
             <div class="team-pictures">
                 <div class="first-picture">
                     <img src="edie-homepage-master/person3.png" alt="">
@@ -161,13 +179,15 @@
                     <img src="edie-homepage-master/person2.png" alt="">
                 </div>
             </div>
+        </div>
 
-            <p class="quote-text">“Fast and outstanding resutls.
-                Edie understands their customer’s needs. They have
-                a young and talented team.” </p>
-            <div class="carlos-tran-container">
-                <img src="edie-homepage-master/person4.png" alt="">
-                <p class="carlos-tran-title">Carlos Tran</p>
+        <p class="quote-text">“Fast and outstanding resutls.
+            Edie understands their customer’s needs. They have
+            a young and talented team.” </p>
+        <div class="carlos-tran-container">
+            <img src="edie-homepage-master/person4.png" alt="">
+            <div class="name-position-container">
+                <p class="carlos-tran-name">Carlos Tran</p>
                 <p class="carlos-tran-position">The Decorate Gatsby</p>
             </div>
         </div>
@@ -226,7 +246,6 @@
                 <button type="button">Join</button>
             </label>
         </div>
-
     </footer>
 </body>
 
